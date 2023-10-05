@@ -1,0 +1,54 @@
+ body{
+    background-color: lightblue;
+ }
+
+ ul {
+    list-style-type: none;
+    background-color: #D7E5CA;
+    width: 300px;
+    padding: 10px;
+ }
+
+.items-nav{
+    display: inline;
+    padding: 10px;
+}
+h1{
+    background-image: url(./imagenes/mascotas.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    padding: 80px 20px;
+    height: 500px;
+    margin: 40px;
+    text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-shadow: 5px 5px whitesmoke;
+}
+
+
+
+.tarjeta{
+    width: 300px;
+    margin: 50px auto;
+    border: 2px solid #D7E5CA;
+    box-shadow: 5px 5px 10px #7573fa,
+    -5px 5px 10px rgb(175, 3, 175)
+}
+
+.img-tar{
+    max-width: 100%;  /*/toma el 100porciento del contenedor donde esta*/
+    
+}
+
+*{box-sizing: border-box;
+margin:0;
+padding: 0;
+font-family: raleway,ital,wght;
+}
+
+.resaltado{
+    background-color: yellowgreen;
+}
+
